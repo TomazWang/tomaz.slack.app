@@ -1,0 +1,29 @@
+{
+  "name": "tomaz.slack.app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "slack": "^11.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/app.js"
+    "start:dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomazWang/tomaz.slack.app.git"
+  },
+  "keywords": [],
+  "author": "Tomaz Wang <TomazWang.tw@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomazWang/tomaz.slack.app/issues"
+  },
+  "homepage": "https://github.com/TomazWang/tomaz.slack.app#readme"
+}
